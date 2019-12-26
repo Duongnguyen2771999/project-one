@@ -1,0 +1,19 @@
+// banner
+
+.btn--transparent0{
+    @include button(white,black,transparent,white,0,200px,50px,2px,white);
+}
+
+.btn--white{
+    @include button(black,white,white,transparent,0,250px,50px,2px,white);
+}
+
+// product
+
+.btn--white1{
+    @include button(black,white,white,black,0,80px,40px,2px,black);
+}
+
+.btn--black{
+    @include button(white,black,black,white,0,80px,40px,2px,black);
+}

@@ -1,0 +1,20 @@
+@mixin button($color,$color-hover,$bg-color,$bg-color-hover,$radius,$width,$height,$border-size,$border-color){
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 700;
+    color: $color;
+    background-color: $bg-color;
+    border-radius: $radius;
+    width: $width;
+    height: $height;
+    border: $border-size $border-color solid;
+    &:hover{
+        background-color: $bg-color-hover;
+        color: $color-hover;
+    }
+}
