@@ -1,0 +1,37 @@
+.container{
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media only screen and (min-width: 576px) {
+    .container{
+        max-width: 540px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        max-width: 720px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container{
+        max-width: 960px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container{
+        max-width: 1140px !important;
+    }
+}
